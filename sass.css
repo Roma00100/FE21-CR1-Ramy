@@ -83,12 +83,48 @@
   display: flex;
   grid-column: 1/-1;
 }
+.info a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.about {
+  border-right: 1px solid #ffffff;
+  padding-right: 80px;
+}
+
+.recipes {
+  border-left: 1px solid #ffffff;
+  padding-left: 80px;
+  padding-right: 80px;
+  border-right: 1px solid #ffffff;
+}
+
+.faq {
+  border-left: 1px solid #ffffff;
+  padding-left: 80px;
+  padding-right: 80px;
+  border-right: 1px solid #ffffff;
+}
+
+.contactus {
+  border-left: 1px solid #ffffff;
+  padding-left: 80px;
+}
 
 .socialmedia {
   display: flex;
   grid-column: 1/-1;
   justify-self: center;
-  gap: 10px;
+  gap: 50px;
+  padding: 20px;
+}
+.socialmedia div img {
+  float: left;
+  width: 30px;
+  height: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .copyrights {
@@ -96,12 +132,7 @@
   grid-column: 1/-1;
 }
 
-.socialmedia div img {
-  width: 50px;
-  height: 50px;
-}
-
-@media (width < 300px) {
+@media (width <= 480px) {
   .content {
     grid-template-columns: 1fr;
   }
