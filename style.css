@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#logo {width: 150px;}
+
+.navbar { background-color: rgb(190, 51, 48);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+
+.navbar a{ 
+
+    color: white;
+    text-decoration: none; }
+
+    .navbar div {display: flex; column-gap: 30px;}
+
+    .herosection{ height: 40vh;
+    background-color: rgb(166, 134, 39);
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.content {;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+padding: 20px;
+ }
+
+.content img { width: 100%;   
+}
+
+.content div { position: relative;}
+
+.content p { background-color: blueviolet; transform: translate(0, -50%);
+    position: absolute; top: 50%; width: 100%; text-align: center; padding: 10px;}
+
+
+ @media  (width < 800px) {.content{grid-template-columns: 1fr;}}
