@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .navbar { 
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    align-items: center;
+}
+
+.navbar nav {display: flex; gap: 40px;}
+a{  color: hsl(0, 0%, 0%);  text-decoration: none;}
+
+
+#mainsection {display: flex; justify-content: center;}
+
+ .sectionsection { height: 400px; width: 300px;
+     background-color: rgb(212, 197, 197); }
+.sectionsection img{  width: 300px; height: 400px;}
+ 
+
+.asidesection { height: 400px; width: 300px;
+    background-color: rgb(212, 197, 197);}
+
+
+.articlesection { display: flex; background-color: rgb(255, 255, 255); justify-content: center;}
+
+
+
+.footer { background-color: black; color: white;
+    display: grid; justify-items: center;  
+grid-template-rows: repeat(3, object-fit(100%)); gap: 10px;
+
+}
+
+
+.info { padding-top: 10px;   a{text-decoration: none; color: #ffffff;} } 
+
+.about { float: left; border-right: 1px solid #ffffff; padding-right: 80px;} 
+.recipes {float: left;border-left : 1px solid #ffffff;padding-left: 80px; padding-right: 80px; border-right: 1px solid #ffffff; } 
+.faq {float: left;border-left : 1px solid #ffffff;padding-left: 80px; padding-right: 80px; border-right: 1px solid #ffffff; } 
+.contactus {float:left ;border-left : 1px solid #ffffff; padding-left: 80px;} 
+
+.socialmedia {display: flex ; gap: 20px ; padding: 20px; 
+    div img {float: left;
+        width:  25px;
+        height: 25px;
+        object-fit: cover;}
+}
+
+.articlesection { display: flex; background-color: rgb(255, 255, 255); justify-content: center;}
